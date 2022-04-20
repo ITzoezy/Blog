@@ -26,7 +26,6 @@ public class ArticleController {
     @LogAnnotation(module="文章",operator="获取文章列表")
 //    @Cache(expire = 5 * 60 * 1000,name = "listArticle")
     public Result listArticle(@RequestBody PageParams pageParams){
-//        int i = 10/0;
         return articleService.listArticle(pageParams);
     }
 
@@ -52,6 +51,7 @@ public class ArticleController {
         return articleService.newArticles(limit);
     }
 
+    //文章归档
     @PostMapping("listArchives")
     public Result listArchives(){
         return articleService.listArchives();
