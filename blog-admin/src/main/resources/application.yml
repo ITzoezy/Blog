@@ -34,5 +34,5 @@ mybatis-plus:
 
 
 qiniu:
-  accessKey= i86jRDe6_dfIrlX3IiJGwEuC0GWG5zINuZSGStz_
-  accessSecretKey= qM-YuuwTuwCXQtHCbKsuM-e3b0DnlhtNr2s7bNgm
+  accessKey: i86jRDe6_dfIrlX3IiJGwEuC0GWG5zINuZSGStz_
+  accessSecretKey: qM-YuuwTuwCXQtHCbKsuM-e3b0DnlhtNr2s7bNgm
